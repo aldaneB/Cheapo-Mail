@@ -1,0 +1,43 @@
+<!Doctype html>
+
+<head>
+    <title>
+        Cheapo Mail
+    </title>
+    <link rel="stylesheet" href="newuser.css" type="text/css">
+    <link rel="icom" href="cheapo Mail.png">
+</head>
+
+<body>
+    <div>
+        <img class="logo" src="cheapo Mail.png" alt="Mail icon">
+    </div>
+    <div class="headerField">
+        <span id="signin-button">
+         <a id = "link-signin" href="login.html" >Sign In</a>
+        </span>
+    </div>
+    <h1>Create your CheapoMail Account</h1>
+    <div class="signup">
+        <form id="newuserInfo" action="newUser.php" method="post">
+            <fieldset id="fieldset">
+                <legend><strong>First Name</strong></legend>
+                <input id="firstName" type="text" name="firstName" placeholder="eg.John" class="textfield" required>
+                <legend><strong>Last Name</strong></legend>
+                <input id="lastName" type="text" name="lastName" placeholder="eg.Brown" class="textfield" required>
+                <legend><strong>Choose your username</strong></legend>
+                <input id="userName" type="text" name="userName" class="textfield" required>
+                <legend><strong>Create a password</strong></legend>
+                <input id="password" type="password" name="password" class="textfield" required>
+                <legend><strong>Confirm your password</strong></legend>
+                <input id="passwordCon" type="password" name="passwordCon" class="textfield" required>
+                <br><br>
+                <input id="submit" type="submit" value="Submit" class="button">
+                <input id="cancel" type="submit" value="Cancel" class="button">
+            </fieldset>
+        </form>
+    </div>
+    <div>
+
+    </div>
+</body>
